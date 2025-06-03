@@ -1,0 +1,56 @@
+# Configuration settings for the stock market prediction project
+
+# Data settings
+data:
+  source: "Yahoo Finance"
+  stock_symbol: "MSFT"
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+
+# Model settings
+models:
+  linear_regression:
+    enabled: true
+    parameters:
+      alpha: 0.01
+  xgboost:
+    enabled: true
+    parameters:
+      learning_rate: 0.1
+      n_estimators: 100
+  random_forest:
+    enabled: true
+    parameters:
+      n_estimators: 100
+      max_depth: 10
+  lstm:
+    enabled: true
+    parameters:
+      units: 50
+      dropout: 0.2
+  transformer:
+    enabled: true
+    parameters:
+      num_heads: 8
+      num_layers: 4
+
+# Training settings
+training:
+  time_periods:
+    - 3
+    - 6
+    - 12
+    - 24
+    - 36
+  batch_size: 32
+  epochs: 50
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - RMSE
+    - MAE
+    - R2
+  visualization:
+    enabled: true
+    save_path: "results/plots/"
