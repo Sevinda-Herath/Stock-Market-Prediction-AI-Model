@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+AAPL,0.414,0.6974,0.9977,4.0481,28.7566,0.98,199.5074

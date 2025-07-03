@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+GOOGL,0.5832,0.7683,0.9985,2.6579,12.1623,0.9837,172.4125
