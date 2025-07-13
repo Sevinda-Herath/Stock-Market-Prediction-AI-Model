@@ -1,2 +1,0 @@
-symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
-NVDA,0.0977,0.0169,0.9948,2.2483,14.3487,0.9928,145.2801

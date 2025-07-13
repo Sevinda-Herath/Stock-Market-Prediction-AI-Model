@@ -1,2 +1,0 @@
-symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
-UNH,2.8268,22.8913,0.9954,11.2059,255.1778,0.964,313.4549

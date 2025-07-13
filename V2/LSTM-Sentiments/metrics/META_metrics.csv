@@ -1,2 +1,0 @@
-symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
-META,4.7455,61.3317,0.9917,13.134,336.3659,0.9881,695.582
