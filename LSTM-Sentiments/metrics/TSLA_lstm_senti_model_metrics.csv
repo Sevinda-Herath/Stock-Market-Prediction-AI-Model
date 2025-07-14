@@ -1,2 +1,0 @@
-symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
-TSLA,2.0022,20.0248,0.9976,7.5865,109.9959,0.9756,311.5348
