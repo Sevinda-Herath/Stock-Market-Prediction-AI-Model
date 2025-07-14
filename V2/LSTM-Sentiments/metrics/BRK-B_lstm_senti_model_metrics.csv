@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+BRK-B,2.726,15.6873,0.9945,12.1005,251.293,0.9664,460.1896

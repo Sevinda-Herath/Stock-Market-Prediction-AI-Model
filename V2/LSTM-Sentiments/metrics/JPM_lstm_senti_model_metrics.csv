@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+JPM,0.8111,1.5965,0.9974,2.7535,15.0613,0.9939,279.2546
